@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa
+    
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header li {
+    display: inline;
+    font-size: bold;
+}
+
+header li a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f5f6fa;
+    text-decoration: none;
+    padding: 16px;
+    border-right: solid white 1px;    
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+header li a:hover {
+    
+    background-color: #f5f6fa;
+    color:#2f3640;
+
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;    
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /* height: 180px; */
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 3px 3px 12px;
+    
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: #2f3640;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    border-style: outset;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    background-color: white;
+    border-style: outset;
+    border-color: #2f3640;
+    color: #2f3640;
+}
+
+.articles article p,
+.articles article a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.articles article h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color:azure;
+}
+
+#economy {
+    background-color:aliceblue;
+}
